@@ -1,5 +1,5 @@
-import { State } from "../models/State.js";
-import { Project, ProjectStatus } from "../models/Project.js";
+import { State } from "../models/State";
+import { Project, ProjectStatus } from "../models/Project";
 
 // Project State Management
 export class ProjectState extends State<Project> {
